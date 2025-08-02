@@ -1,24 +1,13 @@
 {
   "name": "coveralls",
   "description": "takes json-cov output into stdin and POSTs to coveralls.io",
-  "version": "3.1.1",
+  "version": "3.1.1-lineaje-01",
   "keywords": [
     "coverage",
     "coveralls"
   ],
   "author": "Gregg Caines",
   "license": "BSD-2-Clause",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nickmerwin/node-coveralls.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nickmerwin/node-coveralls/issues"
-  },
-  "homepage": "https://github.com/nickmerwin/node-coveralls#readme",
-  "maintainers": [
-    "Nick Merwin <nick@coveralls.io> (https://coveralls.io)"
-  ],
   "contributors": [
     "Gregg Caines <gregg@caines.ca> (http://caines.ca)",
     "Joshua Ma <github@joshma.com> (http://joshma.com)",
@@ -29,6 +18,17 @@
     "mattjmorrison <mattjmorrison@mattjmorrison.com> (http://mattjmorrison.com)",
     "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de/)",
     "Adam Moss (https://github.com/adam-moss)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/node-coveralls"
+  },
+  "bugs": {
+    "url": "https://github.com/nickmerwin/node-coveralls/issues"
+  },
+  "homepage": "https://github.com/nickmerwin/node-coveralls#readme",
+  "maintainers": [
+    "Nick Merwin <nick@coveralls.io> (https://coveralls.io)"
   ],
   "bin": {
     "coveralls": "./bin/coveralls.js"
